@@ -4,8 +4,8 @@ from twilio.rest import Client
 
 OWM_Endpoint = "https://api.openweathermap.org/data/3.0/onecall"
 api_key = "41c4b7e6cd0e855a3fd8983fbaf786e1"
-account_sid = "ACfb052e44aa9aabfa1bcd10192d6a8ade"
-auth_token = "1bbcf725469d66ffca64faed6f76b61b"
+account_sid = "your_account_sid"
+auth_token = "your_auth_token"
 
 phone_numbers = [
     {'number': '+19492784738', 'latitude': 40.7029667, 'longitude': -74.00733305555555},
